@@ -19,7 +19,7 @@ public with sharing class AcctandOpptyTree {
 
 // To adapt this to anouther Object simply search for "Change" to go to the places 
 // where the sObject and query must be changed
-
+//added a comment
     //Wrapper class
     public class ObjectStructureMap {
 
