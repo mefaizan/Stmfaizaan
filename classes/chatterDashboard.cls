@@ -49,8 +49,7 @@ public with sharing class chatterDashboard {
         // Everyone we're following
         EntitySubscription[] followingES = [select id, parentid, subscriberid, parent.name
             from EntitySubscription
-            where subscriberid = :ulookup.ownerid
-            order by parent.name];
+            where subscriberid = :ulookup.ownerid;
         
         Map<string,string> following = new Map<string,string> ();
         
